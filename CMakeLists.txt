@@ -36,8 +36,7 @@ target_sources(Ringstop PRIVATE
 target_compile_definitions(Ringstop PUBLIC
     JUCE_WEB_BROWSER=0
     JUCE_USE_CURL=0
-    JUCE_VST3_CAN_REPLACE_VST2=0
-    JUCE_DISPLAY_SPLASH_SCREEN=0)
+    JUCE_VST3_CAN_REPLACE_VST2=0)
 
 target_link_libraries(Ringstop
     PRIVATE
